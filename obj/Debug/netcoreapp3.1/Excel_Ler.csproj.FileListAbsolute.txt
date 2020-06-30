@@ -1,0 +1,13 @@
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\bin\Debug\netcoreapp3.1\Excel_Ler.exe
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\bin\Debug\netcoreapp3.1\Excel_Ler.deps.json
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\bin\Debug\netcoreapp3.1\Excel_Ler.runtimeconfig.json
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\bin\Debug\netcoreapp3.1\Excel_Ler.runtimeconfig.dev.json
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\bin\Debug\netcoreapp3.1\Excel_Ler.dll
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\bin\Debug\netcoreapp3.1\Excel_Ler.pdb
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\obj\Debug\netcoreapp3.1\Excel_Ler.csprojAssemblyReference.cache
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\obj\Debug\netcoreapp3.1\Excel_Ler.csproj.CoreCompileInputs.cache
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\obj\Debug\netcoreapp3.1\Excel_Ler.AssemblyInfoInputs.cache
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\obj\Debug\netcoreapp3.1\Excel_Ler.AssemblyInfo.cs
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\obj\Debug\netcoreapp3.1\Excel_Ler.dll
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\obj\Debug\netcoreapp3.1\Excel_Ler.pdb
+C:\Users\Diego\OneDrive\Área de Trabalho\Ux\SENAI\Excel_Ler\obj\Debug\netcoreapp3.1\Excel_Ler.genruntimeconfig.cache
