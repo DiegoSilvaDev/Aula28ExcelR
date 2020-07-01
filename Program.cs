@@ -14,8 +14,8 @@ namespace Excel_Ler
 
             p1.Cadastrar(p1);
 
-            List<Produto> lista = p1.Ler();
-            
+            List<Produto> lista = new List<Produto>();
+            lista = p1.Ler();
 
             foreach (Produto item in lista)
             {

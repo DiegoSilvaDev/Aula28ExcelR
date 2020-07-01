@@ -7,7 +7,14 @@ namespace Excel_Ler
 {
     public class Produto
     {
-         public int Codigo { get; set; }
+        public Produto(int codigo, string nome, float preco) 
+        {
+            this.Codigo = codigo;
+                this.Nome = nome;
+                this.Preco = preco;
+               
+        }
+                 public int Codigo { get; set; }
         public string Nome { get; set; }
         public float Preco { get; set; }
         
@@ -53,21 +60,26 @@ namespace Excel_Ler
                 string[] dado = linha.Split(";");
 
                 // Criamos instâncias de produtos para serem colocados na lista 
-                Produto prod = new Produto();
-                prod.Codigo  = Int32.Parse(Separar(dado[0]));
-                prod.Nome    = Separar(dado[1]);
-                prod.Preco   = float.Parse( Separar(dado[2]));
+                Produto p   = new Produto();
+                p.Codigo    = Int32.Parse( Separar(dado[0]) );
+                p.Nome      = Separar(dado[1]);
+                p.Preco     = float.Parse( Separar(dado[2]) );
 
-                produtos.Add(prod);
+                produtos.Add(p);
             }
             
-
+            produtos = produtos.OrderBy(y => y.Nome).ToList();
             return produtos;
         }
 
-        // public void Buscar(string _nome, int _cod){
-        //     Ler().Find(x => x.Codigo == _cod).Nome = _nome;
-        // }
+        /// <summary>
+        /// Filtra os produtos 
+        /// </summary>
+        /// <param name="_nome">Serve para filtrar pelo nome</param>
+        /// <returns>Produtos filtrados pelo nome</returns>
+        public List<Produto> Filtrar(string _nome){
+            return Ler().FindAll(x => x.Nome == _nome );
+        }
 
         /// <summary>
         /// Serve para separar os itens por colunas
